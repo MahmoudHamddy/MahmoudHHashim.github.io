@@ -83,13 +83,13 @@
           <div><dt><span data-count="4.0" data-decimals="1">4.0</span></dt><dd>MSc GPA out of 4.0</dd></div>
           <div><dt><span data-count="4">4</span></dt><dd>Conference presentations</dd></div>
           <div><dt><span data-count="2">2</span></dt><dd>International congresses<br>WCB · SOSORT</dd></div>
-          <div><dt><span data-count="11">11</span></dt><dd>AI &amp; engineering projects</dd></div>
+          <div><dt><span data-count="12">12</span></dt><dd>AI &amp; engineering projects</dd></div>
         </dl>
 
         <div class="home-cols">
           <div class="block card rv">
             <h2 class="block-title">Currently</h2>
-            <p class="lead-sm">Completing my MSc thesis on 3D surface topography and AI for adolescent idiopathic scoliosis (expected January 2027).</p>
+            <p class="lead-sm">Completing my MSc thesis on 3D surface topography and AI for adolescent idiopathic scoliosis (expected December 2026).</p>
             <p class="muted">Open to opportunities in medical AI, computer vision, and biomedical engineering.</p>
           </div>
           <div class="block card rv">
@@ -107,7 +107,7 @@
           <dl class="toolkit">
             <div class="rv"><dt>AI &amp; machine learning</dt><dd>PyTorch, TensorFlow, Keras, Scikit-learn, OpenCV, MediaPipe, explainable AI</dd></div>
             <div class="rv"><dt>AI domains</dt><dd>Computer vision (detection, segmentation), signal processing, audio classification</dd></div>
-            <div class="rv"><dt>Biomedical engineering</dt><dd>Medical imaging (CAD), biomechanics, health informatics, rehabilitation engineering, medical robotics</dd></div>
+            <div class="rv"><dt>Biomedical engineering</dt><dd>Medical imaging (CAD), health informatics (HL7, DICOM), biomechanics, rehabilitation engineering, medical robotics</dd></div>
             <div class="rv"><dt>Data science</dt><dd>Python, Pandas, NumPy, Matplotlib, Seaborn, Plotly, linear algebra, optimization</dd></div>
             <div class="rv"><dt>Software &amp; web</dt><dd>Java, C++, C, JavaScript, Django, Flask, MySQL, MongoDB, HTML/CSS</dd></div>
           </dl>
@@ -331,8 +331,8 @@
         </header>
 
         <div class="filterbar rv" role="group" aria-label="Filter projects" data-filter-group="projects">
-          <button class="active" data-filter="all">All <span class="mono">11</span></button>
-          <button data-filter="medical">Medical AI <span class="mono">3</span></button>
+          <button class="active" data-filter="all">All <span class="mono">12</span></button>
+          <button data-filter="medical">Medical <span class="mono">4</span></button>
           <button data-filter="cv">Computer vision <span class="mono">6</span></button>
           <button data-filter="ml">Machine learning <span class="mono">6</span></button>
           <button data-filter="signal">Signal processing <span class="mono">4</span></button>
@@ -355,43 +355,48 @@
             <div class="proj-main"><h3>ICU management web application</h3><p>Flask-based platform for managing ICU operations: profiles for doctors, nurses, patients, and staff.</p></div>
             <div class="proj-meta"><span class="mono">Flask · MySQL · JavaScript</span><a href="https://github.com/MahmoudHamddy/icu_project" target="_blank" rel="noopener noreferrer">Code ↗</a></div>
           </article>
-          <article class="proj rv" data-cat="cv ml">
+          <article class="proj rv" data-cat="medical">
             <span class="mono proj-n">04</span>
+            <div class="proj-main"><h3>Health information system</h3><p>Team project: a web-based health information system that exchanges patient data between systems with HL7 messages over TCP/IP and stores patient records and DICOM imaging data. I built the HL7 data-transfer module, the Django back-end, and the React front-end.</p></div>
+            <div class="proj-meta"><span class="mono">Django · React · HL7 · DICOM</span><a href="https://github.com/Adham-Mohammed/HIS2" target="_blank" rel="noopener noreferrer">Team repo ↗</a></div>
+          </article>
+          <article class="proj rv" data-cat="cv ml">
+            <span class="mono proj-n">05</span>
             <div class="proj-main"><h3>Face recognition</h3><p>Web app using PCA to extract distinctive facial features and a linear-kernel SVM (one-vs-all) for multi-class recognition.</p></div>
             <div class="proj-meta"><span class="mono">OpenCV · Scikit-learn · PCA · SVM</span><a href="https://github.com/MahmoudHamddy/face_recognition" target="_blank" rel="noopener noreferrer">Code ↗</a></div>
           </article>
           <article class="proj rv" data-cat="cv">
-            <span class="mono proj-n">05</span>
+            <span class="mono proj-n">06</span>
             <div class="proj-main"><h3>Custom OpenCV filters</h3><p>Web app that re-implements popular image processing filters (e.g., Gaussian) from scratch.</p></div>
             <div class="proj-meta"><span class="mono">NumPy · OpenCV · Streamlit</span><a href="https://github.com/MahmoudHamddy/Image-Processing-in-frequency-and-spatial-domanis" target="_blank" rel="noopener noreferrer">Code ↗</a></div>
           </article>
           <article class="proj rv" data-cat="cv signal">
-            <span class="mono proj-n">06</span>
+            <span class="mono proj-n">07</span>
             <div class="proj-main"><h3>Image merger in K-space</h3><p>Combines the phase of one image with the magnitude of another in the Fourier domain to visualize the result.</p></div>
             <div class="proj-meta"><span class="mono">OpenCV · Flask · JavaScript · FFT</span><a href="https://github.com/MahmoudHamddy/DSP_TASK4_mergingImages" target="_blank" rel="noopener noreferrer">Code ↗</a></div>
           </article>
           <article class="proj rv" data-cat="signal ml">
-            <span class="mono proj-n">07</span>
+            <span class="mono proj-n">08</span>
             <div class="proj-main"><h3>Voice recognition</h3><p>Random Forest model that detects voice fingerprints and verifies spoken passwords.</p></div>
             <div class="proj-meta"><span class="mono">Python · Scikit-learn · Random Forest</span><a href="https://github.com/MahmoudHamddy/Voice-Recognition" target="_blank" rel="noopener noreferrer">Code ↗</a></div>
           </article>
           <article class="proj rv" data-cat="signal">
-            <span class="mono proj-n">08</span>
+            <span class="mono proj-n">09</span>
             <div class="proj-main"><h3>Music equalizer</h3><p>DSP and FFT web app for analyzing and editing audio frequencies, with four modes: general, musical instruments, vowels, and animal sounds.</p></div>
             <div class="proj-meta"><span class="mono">Python · DSP · FFT</span><a href="https://github.com/MahmoudHamddy/equalizer" target="_blank" rel="noopener noreferrer">Code ↗</a></div>
           </article>
           <article class="proj rv" data-cat="signal">
-            <span class="mono proj-n">09</span>
+            <span class="mono proj-n">10</span>
             <div class="proj-main"><h3>Sampling studio</h3><p>Demonstrates the Nyquist theorem: generate or import signals, add noise, sample, and reconstruct.</p></div>
             <div class="proj-meta"><span class="mono">Streamlit · NumPy · DSP</span><a href="https://github.com/MahmoudHamddy/DSP_TASK1_16" target="_blank" rel="noopener noreferrer">Code ↗</a></div>
           </article>
           <article class="proj rv" data-cat="ml">
-            <span class="mono proj-n">10</span>
+            <span class="mono proj-n">11</span>
             <div class="proj-main"><h3>Music generator</h3><p>LSTM network that predicts the next note in a melody and generates new music from learned patterns.</p></div>
             <div class="proj-meta"><span class="mono">TensorFlow · LSTM</span><a href="https://github.com/MahmoudHamddy/MusicGenerator" target="_blank" rel="noopener noreferrer">Code ↗</a></div>
           </article>
           <article class="proj rv" data-cat="ml cv">
-            <span class="mono proj-n">11</span>
+            <span class="mono proj-n">12</span>
             <div class="proj-main"><h3>Machine learning &amp; deep learning implementations</h3><p>Linear regression with L1/L2 and an ID3 decision tree built from scratch, plus K-Means, SVM, PCA, recommender systems, CNNs, RNNs, GANs, VAEs, transfer learning, and UNet segmentation.</p></div>
             <div class="proj-meta"><span class="mono">TensorFlow · NumPy · Scikit-learn</span><a href="https://github.com/MahmoudHamddy/AI_Tasks" target="_blank" rel="noopener noreferrer">Code ↗</a></div>
           </article>
@@ -413,7 +418,7 @@
         <h2 class="block-title rv">Degrees</h2>
         <ol class="entries">
           <li class="entry rv">
-            <span class="mono entry-date">Jan 2025 — Jan 2027<br><small>expected</small></span>
+            <span class="mono entry-date">Jan 2025 — Dec 2026<br><small>expected</small></span>
             <div><h3>MSc, Biomedical Engineering</h3><p class="entry-org">University of Alberta · Edmonton, Canada</p><p>Research on AI and 3D surface topography for adolescent idiopathic scoliosis.</p></div>
             <span class="entry-tag">GPA 4.0 / 4.0</span>
           </li>
