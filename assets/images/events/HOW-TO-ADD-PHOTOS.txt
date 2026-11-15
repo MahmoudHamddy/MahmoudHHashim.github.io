@@ -1,0 +1,11 @@
+Put your event photos in this folder with these exact names (.jpg):
+
+  World Congress of Biomechanics (Vancouver, Jul 2026):   wcb-2026-1.jpg ... wcb-2026-6.jpg
+  SOSORT (Turin, Apr 2026):                                sosort-2026-1.jpg ... sosort-2026-6.jpg
+  Alberta Biomedical Engineering Conference (Oct 2025):    abbme-2025-1.jpg ... abbme-2025-6.jpg
+
+- The first photo of each event is shown largest, so use your best one as "-1".
+- You can use 1 to 6 photos per event. Missing ones are hidden automatically.
+- An event with no photos is hidden completely.
+- Keep each photo under ~500 KB (about 1600 px wide) so the site loads fast.
+- If your photo is .jpeg or .png, rename it to .jpg, or change the file name in index.html.
